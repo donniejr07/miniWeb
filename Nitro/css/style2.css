@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.warna1{
+    background-color: #b58a6a;
+}
+
+.warna2{
+    background-color: white;
+}
+
+.warna3{
+    background-color: blanchedalmond;
+}
+
+.warna4{
+    background-color: aqua;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: whitesmoke;
+    font-weight: 500; 
+}
+
+.banner{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/banner.jpg');
+    background-size: cover;
+}
+
+.gambar-produk{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/bannerp.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tentang{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/about.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.highlighted-kategori{
+    height: 250px;
+}
+
+.kategori-headphone{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/headphone.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-keyboard{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/keyboard.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-mouse{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../image/mouse.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover{
+    color: #b58a6a;
+}
+
+.text-harga{
+    font-size: 20px;
+    color: #b58a6a;
+}
+
+.image-box{
+    height: 250px;
+}
+
+.image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-sus{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.content-sus a{
+    color: whitesmoke;
+}
+
+.image-lain{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+ul{
+    list-style: none;
+}
